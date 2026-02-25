@@ -4,11 +4,11 @@
 
 ## Cel zadania
 
-Twoim zadaniem jest przeanalizowanie i rozwinięcie istniejącej implementacji klienta Azure Search API. Kod ma działać niezawodnie w środowisku produkcyjnym obsługującym duże wolumeny danych.
+Twoim zadaniem jest przeanalizowanie i rozwinięcie istniejącej implementacji klienta Azure Search API poprzez identyfikację i naprawę celowo wprowadzonych błędów.
 
 ## Kontekst
 
-System synchronizuje katalog produktów z Azure Cognitive Search. Klient jest używany do zarządzania indeksami oraz batchowego dodawania i usuwania dokumentów. Występują problemy z niezawodnością przy dużych operacjach i sporadyczne błędy przy komunikacji z API.
+System synchronizuje katalog produktów z Azure AI Search. Klient jest używany do zarządzania indeksami oraz batchowego dodawania i usuwania dokumentów. Występują problemy z niezawodnością przy dużych operacjach i sporadyczne błędy przy komunikacji z API.
 
 ## Warunki wejściowe
 
@@ -57,9 +57,9 @@ Działający, niezawodny kod który:
 4. **PHP 8.x features** - wykorzystanie nowoczesnych funkcji języka
 5. **programming** - czy kandydat myśli o błędach i anomaliach
 
-## Zadania dodatkowe (opcjonlanie, jesli masz czas)
+## Zadania dodatkowe (dla chętnych)
 
 1. Jak przetestowałbyś tę implementację?
 2. Jak dodałbyś observability (logging, metryki)?
 3. Jak obsłużyłbyś timeouty przy bardzo dużych operacjach?
-4. Co zrobiłbyś inaczej, gdybyś projektowałł ten system od zera?
+4. Co zrobiłbyś inaczej, gdybyś projektował tę funkcjonalność od zera?
